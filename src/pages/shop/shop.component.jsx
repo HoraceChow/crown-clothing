@@ -3,8 +3,8 @@ import SHOP_DATA from './shop.data.js'
 import CollectionPreview from '../../component/collection-preview/collection-preview.jsx'
 
 class ShopPage extends React.Component{
-    constructor(props){
-        super(props);
+    constructor(){
+        super();
         this.state ={
             collections: SHOP_DATA
         };

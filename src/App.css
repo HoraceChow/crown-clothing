@@ -9,6 +9,9 @@ a {
 .App {
   text-align: center;
 }
+*{
+  box-sizing: border-box;
+}
 
 
 .App-logo {
